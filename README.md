@@ -4,18 +4,28 @@ A small Wordle assistant packaged as `wordle_solver`.
 
 Quick start
 
-1. Create a virtual environment and install dependencies (if any).
+1. Create a virtual environment and install the package:
 
-2. Run the CLI from the project root:
+```bash
+./.venv/bin/python -m pip install -e .
+```
+
+2. Run the Streamlit app from the project root:
 
 ```bash
 ./.venv/bin/python -m wordle_solver
 ```
 
+3. Run the CLI directly if you want the terminal workflow:
+
+```bash
+./.venv/bin/wordle-solver
+```
+
 Options
 
-- `--max-guesses N` — maximum allowed guesses (default 6)
-- `--seed N` — seed for deterministic suggestions
+- Streamlit uses a sidebar slider for the guess limit.
+- The CLI still accepts `--max-guesses N` and `--seed N`.
 
 Notes
 

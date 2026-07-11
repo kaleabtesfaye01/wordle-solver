@@ -38,6 +38,10 @@ htmlcov/
 *.sublime-project
 *.sublime-workspace
 
+# Local agent/customization files
+.agents/
+.claude/
+
 # macOS
 .DS_Store
 

@@ -1,5 +1,5 @@
-from .cli import main
+from .streamlit_app import launch
 
 
 if __name__ == "__main__":
-    raise SystemExit(main())
+    raise SystemExit(launch())
