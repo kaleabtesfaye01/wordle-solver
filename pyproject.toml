@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wordle-solver"
+version = "0.1.0"
+description = "Wordle assistant CLI"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [ { name = "" } ]
+license = { text = "MIT" }
+dependencies = []
+
+[project.scripts]
+wordle-solver = "wordle_solver.cli:main"
